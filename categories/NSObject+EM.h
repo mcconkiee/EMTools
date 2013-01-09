@@ -11,6 +11,7 @@
 
 @interface NSObject (EM)
 -(NSString*)documentsDirectory;
+-(NSString*)libraryDirectory;
 -(NSString*)cacheDirectory;
 -(NSString*)cacheDirectoryFor:(NSString*)relativeCachePath;
 
